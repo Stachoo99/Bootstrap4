@@ -4,7 +4,7 @@
 }
 
 .container-fluid {
-/*	height: 50px;*/
+    /*	height: 50px;*/
     background-color: green;
 }
 
@@ -12,4 +12,44 @@
     height: 50px;
     background-color: yellow;
     margin-bottom: 10px;
+}
+
+#carouselExampleIndicators {
+    height: 400px;
+}
+
+#carouselExampleIndicators .carousel-inner {
+    height: 100%;
+}
+
+/*
+#carouselExampleIndicators .carousel-inner,
+#carouselExampleIndicators .carousel-inner .carousel-item,
+#carouselExampleIndicators .carousel-inner .carousel-item img {
+    height: 100%;
+}
+DLA OBRAZKOW IMG */
+
+
+
+#carousel-1 {
+    background-image: url('http://laurawootenstudio.com/wp-content/uploads/2015/07/BlueRidgeLandscape_WelcomeGallery-600x600.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#carousel-2 {
+    background-image: url(https://vn-tourism.com/wp-content/uploads/2015/01/Mai-Chau-valley-terraces-600x600.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#carousel-3 {
+    background-image: url(https://raluca305photography.com/wp-content/uploads/2017/08/aov-2918-600x600.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
 }
